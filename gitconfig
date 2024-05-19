@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = Gautier Vanneste
+email = gautier@nopillo.com
+[pull]
+	rebase = true
+
+[alias]
+	gone = "!f() { git fetch --all --prune; git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -D; }; f"
+	merged = "!f() { git branch --merged | egrep -v '(^\\*|master|main|dev)' | xargs git branch -D; }; f"
+	delete = "!f() { for branch in \"$@\"; do git branch -D \"$branch\" && git push origin --delete \"$branch\"; done; }; f"
+[init]
+	defaultBranch = main
