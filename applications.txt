@@ -1,0 +1,31 @@
+1Password 7.app.zip
+1Password.app
+Amazon Kindle.app
+Anki.app
+Arc.app
+Bitwarden.app
+ChatGPT.app
+Discord.app
+Docker.app
+DuckDuckGo.app
+Fig.app
+Firefox.app
+GPG Keychain.app
+Google Chrome.app
+Insomnia.app
+IntelliJ IDEA CE.app
+IntelliJ IDEA.app
+NordVPN.app
+Notion Calendar.app
+Notion.app
+Postman.app
+Safari.app
+Slack.app
+Todoist.app
+Trader Workstation
+Utilities
+Visual Studio Code - Insiders.app
+Visual Studio Code.app
+Wireshark.app
+iTerm.app
+zoom.us.app
